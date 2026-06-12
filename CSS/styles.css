@@ -26,10 +26,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
+    user-select: none;
+    caret-color: transparent;
 }
 
 body {
   cursor: default;
+}
+
+a, button, .btn {
+    cursor: pointer;
 }
 
 #container{
