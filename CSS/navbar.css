@@ -14,10 +14,6 @@ header{
             width: 130px;
         }
 
-        btn-mobile{
-            color: var(--color-neutral-8);
-        }
-
         ul{
             display: none;
             list-style: none;
@@ -63,6 +59,7 @@ header{
         .navbar{
             .btn-mobile{
                 display: none;
+                color: var(--color-neutral-8);
             }
 
             ul{
